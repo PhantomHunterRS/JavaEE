@@ -1,11 +1,8 @@
 package servlet;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
-import javax.servlet.*;
-import java.io.IOException;
-
+        import org.slf4j.Logger;
+        import org.slf4j.LoggerFactory;
+        import javax.servlet.*;
+        import java.io.IOException;
 public class ProductServlet implements Servlet {
     private static final Logger logger = LoggerFactory.getLogger(ProductServlet.class);
     private transient ServletConfig servletConfig;

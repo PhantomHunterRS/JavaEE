@@ -1,10 +1,9 @@
+
 package servlet;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
-import javax.servlet.*;
-import java.io.IOException;
+        import org.slf4j.Logger;
+        import org.slf4j.LoggerFactory;
+        import javax.servlet.*;
+        import java.io.IOException;
 
 public class CartServlet implements Servlet {
     private static final Logger logger = LoggerFactory.getLogger(CartServlet.class);

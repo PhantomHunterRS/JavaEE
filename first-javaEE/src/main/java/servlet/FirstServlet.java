@@ -1,12 +1,10 @@
+
 package servlet;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
-import javax.servlet.*;
-import java.io.IOException;
-import java.io.Serializable;
-
+        import org.slf4j.Logger;
+        import org.slf4j.LoggerFactory;
+        import javax.servlet.*;
+        import java.io.IOException;
+        import java.io.Serializable;
 
 public class FirstServlet implements Servlet, Serializable {
     private static final Logger  logger = LoggerFactory.getLogger(FirstServlet.class);

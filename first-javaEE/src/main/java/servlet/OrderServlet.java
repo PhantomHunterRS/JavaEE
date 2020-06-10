@@ -1,11 +1,9 @@
+
 package servlet;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
-import javax.servlet.*;
-import java.io.IOException;
-
+        import org.slf4j.Logger;
+        import org.slf4j.LoggerFactory;
+        import javax.servlet.*;
+        import java.io.IOException;
 public class OrderServlet implements Servlet {
     private static final Logger logger = LoggerFactory.getLogger(OrderServlet.class);
     private transient ServletConfig servletConfig;
